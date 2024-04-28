@@ -1,5 +1,54 @@
-template-repository (1.0-1) unstable; urgency=medium
+validators (0.20.0-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 17 Oct 2022 03:22:05 +0100
+
+validators (0.20.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 0.20.0
+  * Remove useless dependency python3-six
+  * Bump Standards-Version to 4.6.1 (no change)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 01 Aug 2022 15:45:20 +0200
+
+validators (0.14.2-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Sophie Brun ]
+  * Add missing build-dep python3-six (Closes: #1002354)
+  * Bump Standards-Version to 4.6.0 (no change)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 21 Jan 2022 09:54:08 +0100
+
+validators (0.14.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Standards-Version: 4.5.0 (routine-update)
+  * debhelper-compat 12 (routine-update)
+  * Remove trailing whitespace in debian/copyright (routine-update)
+  * Drop ancient X-Python-Version field (routine-update)
+  * Trim trailing whitespace.
+  * debian/copyright: use spaces rather than tabs to start continuation
+    lines.
+
+ -- Andreas Tille <tille@debian.org>  Tue, 28 Apr 2020 11:21:12 +0200
+
+validators (0.14.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #956082)
+
+ -- Harley Swick <fancycade@protonmail.com>  Wed, 01 Apr 2020 22:58:58 -0500
